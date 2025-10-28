@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Portal - Sign In</title>
+    <link rel="stylesheet" href="styles/signin.css">
+</head>
+<body>
+    <div class="signin-container">
+        <div class="signin-card">
+            <div class="logo-section">
+                <div class="logo">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" rx="12" fill="#0061D5"/>
+                        <path d="M20 25L30 15L40 25M20 35L30 25L40 35M20 45L30 35L40 45" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h1>Wealth Portal</h1>
+                <p class="subtitle">Secure Document Management for Your Financial Future</p>
+            </div>
+
+            <form class="signin-form" id="signinForm">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="remember">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="signin-button">Sign In</button>
+
+                <div class="divider">
+                    <span>or</span>
+                </div>
+
+                <button type="button" class="sso-button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 10C18 5.58 14.42 2 10 2C5.58 2 2 5.58 2 10C2 13.86 4.69 17.09 8.36 17.84V12.38H6.47V10H8.36V8.23C8.36 6.36 9.57 5.24 11.26 5.24C12.1 5.24 12.97 5.38 12.97 5.38V7.21H12.01C11.06 7.21 10.75 7.79 10.75 8.38V10H12.88L12.53 12.38H10.75V17.84C14.42 17.09 18 13.86 18 10Z" fill="#1877F2"/>
+                    </svg>
+                    Sign in with SSO
+                </button>
+            </form>
+
+            <div class="signup-section">
+                <p>Don't have an account? <a href="#">Contact your advisor</a></p>
+            </div>
+
+            <div class="security-notice">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 1L3 3V7C3 10.5 5.42 13.66 8 14.5C10.58 13.66 13 10.5 13 7V3L8 1Z" stroke="#0061D5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Your data is encrypted and secure</span>
+            </div>
+        </div>
+
+        <div class="features-section">
+            <h2>Manage Your Wealth with Confidence</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📁</div>
+                    <h3>Secure Document Storage</h3>
+                    <p>Store and access your financial documents securely from anywhere</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Smart Organization</h3>
+                    <p>Automatically organize and tag documents for easy retrieval</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Advisor Collaboration</h3>
+                    <p>Share documents and collaborate with your financial advisor</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Portfolio Insights</h3>
+                    <p>View and track your financial portfolio in one place</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/signin.js"></script>
+</body>
+</html>
