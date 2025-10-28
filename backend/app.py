@@ -16,7 +16,7 @@ CORS(app)
 # CCG App Configuration
 CLIENT_ID = 'inx9reyb2fcpakvkigflo2s3pdiae82g'
 CLIENT_SECRET = 'MpTLO46U43Qcb0rFUGhedW82BEZn6SvM'
-ENTERPRISE_ID = 'YOUR_ENTERPRISE_ID_HERE'  # Add your Box Enterprise ID
+ENTERPRISE_ID = '1059715940'
 
 # Folder IDs for different sections
 FOLDER_IDS = {
